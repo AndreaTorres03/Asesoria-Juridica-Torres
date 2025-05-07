@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abogada Andrea Torres</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1b2a;
+      color: #f4d58d;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+    header img {
+      max-width: 150px;
+    }
+    h1, h2, h3 {
+      color: #f4d58d;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .servicios ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .servicios li {
+      padding: 0.5rem 0;
+    }
+    footer {
+      background-color: #1b263b;
+      text-align: center;
+      padding: 1rem;
+      color: #ccc;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #f4d58d;
+      color: #0d1b2a;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Logo Abogada Andrea Torres">
+    <h1>Abogada Andrea Torres</h1>
+    <p>Asesoría y representación legal con ética, compromiso y experiencia.</p>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Soy abogada especializada en procesos civiles, laborales, constitucionales y de responsabilidad civil. Mi enfoque es brindar atención personalizada y soluciones jurídicas eficaces, siempre priorizando los derechos de mis clientes.</p>
+  </section>
+
+  <section class="servicios">
+    <h2>Servicios Jurídicos</h2>
+    <ul>
+      <li><strong>Procesos Civiles:</strong> Propiedad, contratos, cobros, arrendamientos.</li>
+      <li><strong>Acciones Constitucionales:</strong> Tutelas, derechos de petición, acciones de cumplimiento y populares.</li>
+      <li><strong>Procesos Laborales:</strong> Despidos, liquidaciones, derechos laborales, acoso laboral.</li>
+      <li><strong>Responsabilidad Civil:</strong> Reclamaciones por daños y perjuicios, accidentes, incumplimientos.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="tel" placeholder="Teléfono">
+      <textarea placeholder="Escribe tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abogada Andrea Torres. Todos los derechos reservados.</p>
+    <p>Email: contacto@abogadaandreatorres.com | WhatsApp: +57 123 456 7890</p>
+  </footer>
+</body>
+</html>
